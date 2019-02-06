@@ -7,6 +7,7 @@ html {
 .section-one {
   height: 100vh;
   background: #212121;
+  position: relative;
 }
 .section-one h1 {
   font-family: "Poppins", sans-serif;
@@ -17,6 +18,27 @@ html {
   letter-spacing: 5px;
   line-height: 100vh;
   text-align: center;
+}
+.section-one .mouse {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 50px;
+  width: 18px;
+  height: 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.section-one .mouse .dot {
+  position: absolute;
+  width: 2px;
+  height: 5px;
+  background: #FFFFFF;
+  top: 5px;
+  left: 50%;
+  right: 50%;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

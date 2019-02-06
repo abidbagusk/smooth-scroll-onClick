@@ -13,6 +13,7 @@ html {
 .section-one {
     height: 100vh;
     background: $color-one;
+    position: relative;
 
     h1 {
         font-family: $main-font;
@@ -24,4 +25,28 @@ html {
         line-height: 100vh;
         text-align: center;
     }
+
+    .mouse {
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        bottom: 50px;
+        width: 18px;
+        height: 30px;
+        border: 1px solid $bright-color;
+        border-radius: 20px;
+        cursor: pointer;
+
+        .dot {
+            position: absolute;
+            width: 2px;
+            height: 5px;
+            background: $bright-color;
+            top: 5px;
+            left: 50%;
+            right: 50%;
+            border-radius: 20px;
+        }
+    }
+
 }
