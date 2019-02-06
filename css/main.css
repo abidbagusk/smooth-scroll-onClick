@@ -9,6 +9,17 @@ html {
   position: relative;
 }
 
+.section-two .button-move, .section-two .button-back {
+  position: absolute;
+  color: #FFFFFF;
+  bottom: 60px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  padding: 10px 25px;
+}
+
 .section-one {
   background: #212121;
 }
@@ -58,26 +69,10 @@ html {
   text-align: center;
 }
 .section-two .button-back {
-  position: absolute;
-  color: #FFFFFF;
-  bottom: 60px;
   left: 35%;
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: 1px solid #FFFFFF;
-  padding: 10px 25px;
 }
 .section-two .button-move {
-  position: absolute;
-  color: #FFFFFF;
-  bottom: 60px;
   right: 35%;
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: 1px solid #FFFFFF;
-  padding: 10px 25px;
 }
 
 .section-three {
