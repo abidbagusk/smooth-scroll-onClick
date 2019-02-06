@@ -26,6 +26,16 @@ html {
     padding: 10px 25px;
 }
 
+.button-back {
+    @extend %button;
+    left: 35%;
+}
+
+.button-move {
+    right: 35%;
+    @extend %button;
+}
+
 @mixin title {
     font-family: $main-font;
     text-transform: uppercase;
@@ -76,16 +86,6 @@ html {
 
     h1 {
         @include title();
-    }
-
-    .button-back {
-        @extend %button;
-        left: 35%;
-    }
-
-    .button-move {
-        right: 35%;
-        @extend %button;
     }
 }
 

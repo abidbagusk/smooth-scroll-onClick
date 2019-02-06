@@ -9,7 +9,7 @@ html {
   position: relative;
 }
 
-.section-two .button-move, .section-two .button-back {
+.button-move, .button-back {
   position: absolute;
   color: #FFFFFF;
   bottom: 60px;
@@ -18,6 +18,14 @@ html {
   text-decoration: none;
   border: 1px solid #FFFFFF;
   padding: 10px 25px;
+}
+
+.button-back {
+  left: 35%;
+}
+
+.button-move {
+  right: 35%;
 }
 
 .section-one {
@@ -67,12 +75,6 @@ html {
   letter-spacing: 5px;
   line-height: 100vh;
   text-align: center;
-}
-.section-two .button-back {
-  left: 35%;
-}
-.section-two .button-move {
-  right: 35%;
 }
 
 .section-three {
