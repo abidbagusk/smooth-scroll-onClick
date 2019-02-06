@@ -8,5 +8,15 @@ html {
   height: 100vh;
   background: #212121;
 }
+.section-one h1 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 54px;
+  color: #FFFFFF;
+  margin-top: 0px;
+  letter-spacing: 5px;
+  line-height: 100vh;
+  text-align: center;
+}
 
 /*# sourceMappingURL=main.css.map */

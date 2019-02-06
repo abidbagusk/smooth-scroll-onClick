@@ -2,6 +2,7 @@ $main-font: 'Poppins',
 sans-serif;
 $color-one : #212121;
 $color-two : #304953;
+$bright-color : #FFFFFF;
 
 body,
 html {
@@ -12,4 +13,15 @@ html {
 .section-one {
     height: 100vh;
     background: $color-one;
+
+    h1 {
+        font-family: $main-font;
+        text-transform: uppercase;
+        font-size: 54px;
+        color: $bright-color;
+        margin-top: 0px;
+        letter-spacing: 5px;
+        line-height: 100vh;
+        text-align: center;
+    }
 }
