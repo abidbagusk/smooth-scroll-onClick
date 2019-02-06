@@ -1,2 +1,15 @@
 $main-font: 'Poppins',
 sans-serif;
+$color-one : #212121;
+$color-two : #304953;
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.section-one {
+    height: 100vh;
+    background: $color-one;
+}

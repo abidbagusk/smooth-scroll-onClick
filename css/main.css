@@ -1,3 +1,12 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
 
+.section-one {
+  height: 100vh;
+  background: #212121;
+}
 
 /*# sourceMappingURL=main.css.map */
