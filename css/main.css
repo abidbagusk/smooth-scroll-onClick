@@ -4,7 +4,7 @@ html {
   margin: 0;
 }
 
-.section-two, .section-one {
+.section-three, .section-two, .section-one {
   height: 100vh;
   position: relative;
 }
@@ -48,6 +48,20 @@ html {
   background: #304953;
 }
 .section-two h1 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 54px;
+  color: #FFFFFF;
+  margin-top: 0px;
+  letter-spacing: 5px;
+  line-height: 100vh;
+  text-align: center;
+}
+
+.section-three {
+  background: #3f1616;
+}
+.section-three h1 {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-size: 54px;

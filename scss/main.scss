@@ -67,3 +67,12 @@ html {
         @include title();
     }
 }
+
+.section-three {
+    @extend %section;
+    background: #3f1616;
+
+    h1 {
+        @include title();
+    }
+}
