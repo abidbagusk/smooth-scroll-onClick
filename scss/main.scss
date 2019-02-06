@@ -4,6 +4,11 @@ $color-one : #212121;
 $color-two : #304953;
 $bright-color : #FFFFFF;
 
+// Actually in the simple way, we only add this property :)
+html {
+    scroll-behavior: smooth;
+}
+
 body,
 html {
     padding: 0;
