@@ -57,6 +57,28 @@ html {
   line-height: 100vh;
   text-align: center;
 }
+.section-two .button-back {
+  position: absolute;
+  color: #FFFFFF;
+  bottom: 60px;
+  left: 35%;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  padding: 10px 25px;
+}
+.section-two .button-move {
+  position: absolute;
+  color: #FFFFFF;
+  bottom: 60px;
+  right: 35%;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  padding: 10px 25px;
+}
 
 .section-three {
   background: #3f1616;

@@ -66,6 +66,30 @@ html {
     h1 {
         @include title();
     }
+
+    .button-back {
+        position: absolute;
+        color: $bright-color;
+        bottom: 60px;
+        left: 35%;
+        font-family: $main-font;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid $bright-color;
+        padding: 10px 25px;
+    }
+
+    .button-move {
+        position: absolute;
+        color: $bright-color;
+        bottom: 60px;
+        right: 35%;
+        font-family: $main-font;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid $bright-color;
+        padding: 10px 25px;
+    }
 }
 
 .section-three {
