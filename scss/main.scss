@@ -10,20 +10,28 @@ html {
     margin: 0;
 }
 
-.section-one {
+%section {
     height: 100vh;
-    background: $color-one;
     position: relative;
+}
+
+@mixin title {
+    font-family: $main-font;
+    text-transform: uppercase;
+    font-size: 54px;
+    color: $bright-color;
+    margin-top: 0px;
+    letter-spacing: 5px;
+    line-height: 100vh;
+    text-align: center;
+}
+
+.section-one {
+    @extend %section;
+    background: $color-one;
 
     h1 {
-        font-family: $main-font;
-        text-transform: uppercase;
-        font-size: 54px;
-        color: $bright-color;
-        margin-top: 0px;
-        letter-spacing: 5px;
-        line-height: 100vh;
-        text-align: center;
+        @include title();
     }
 
     .mouse {
@@ -49,4 +57,13 @@ html {
         }
     }
 
+}
+
+.section-two {
+    @extend %section;
+    background: #304953;
+
+    h1 {
+        @include title();
+    }
 }
